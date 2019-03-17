@@ -23,7 +23,7 @@ class Filter{
 				elseif(strstr($filtering, "@hotmail") || strstr($filtering, "@msn") || strstr($filtering, "@outlook") || strstr($filtering, "@live")) {
 					$this->simpen($filtering, "hotmail_family.txt");
 				}
-				elseif(strstr($filtering, "@yahoo") || strstr($filtering, "@ymail")) {
+				elseif(strstr($filtering, "@yahoo") || strstr($filtering, "@ymail") || strstr($filtering, "@rocketmail") || strstr($filtering, "@roger") || strstr($filtering, "@bellsouth") || strstr($filtering, "@sbcglobal")) {
 					$this->simpen($filtering, "yahoo_family.txt");
 				}
 				elseif(strstr($filtering, "@aol")){
